@@ -1,8 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d39df0;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b796bf;
+}
+
 body { 
     background-color:rgb(230, 203, 240) ;
 }
 
-.home {
-    height: 700px;
+
+ul {
+    list-style: none;
+   
+
+}
+
+li {
+padding: 10px;
+}
+
+.home-section {
     width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.about-section {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.skills-section {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
 }
