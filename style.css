@@ -1,4 +1,6 @@
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,7 @@
 }
 
 /* Custom Scroll Bar CSS */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,14 +29,38 @@
     background: #b796bf;
 }
 
+/*styling body*/
+
 body { 
-    background-color:rgb(230, 203, 240) ;
+    background-color:rgb(230, 203, 240);
 }
 
 
+/*styling navbar*/
+
+.navbar-section {
+
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+}
+
+a:hover {
+    color:#b796bf;
+}
+
 ul {
     list-style: none;
-   
+    text-decoration: none;
 
 }
 
@@ -41,20 +68,182 @@ li {
 padding: 10px;
 }
 
+/*styling home section*/
+
 .home-section {
     width: 100%;
-    height: 600px;
+    height: 800px;
+    margin-top: 60px;
     margin: 0 auto;
+    background-image: url(img/keyboard-background.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    
+    
 }
 
-.about-section {
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
+.home .home-content {
+    width:90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0 auto;
+   
+    
 }
 
-.skills-section {
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
+.text-one {
+    font-size: 30px;
 }
+
+.text-two {
+    font-size: 50px;
+}
+
+.text-three {
+    font-size: 35px;
+}
+
+.text-four {
+    font-size: 24px;
+}
+
+span::before {
+    content: "Software Engeneer";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Frontend developer";
+    }
+
+    50% {
+        content: "Web Designer";
+    }
+
+    75% {
+        content: "App developer";
+    }
+}
+
+
+button {
+    padding: 20px 30px;
+    margin-top: 30px;
+    background-color: #b796bf;
+    border: transparent;
+    border-radius: 35px;
+    color: white;
+    font-size: 20px;
+
+}
+
+button:hover {
+    padding: 20px 30px;
+    margin-top: 30px;
+    background-color: white;
+    border: transparent;
+    border-radius: 35px;
+    color: #b796bf;
+
+}
+
+/*styling about section*/
+
+.about-content {
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.about-text {
+    width: 600px;
+    height: 100%;
+    margin-left: 90px;
+    box-shadow: 2px 2px 4px #9975a2;  
+    border-radius: 90px;
+    padding:50px;
+}
+
+
+.about-image {
+    width: 400px;
+    height: 400px;
+    background-image: url(img/programing-aboutme.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 90px;
+    padding: 50px;
+  
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 45px;
+    font-family: 'Noto Serif Makasar', serif;
+}
+
+ h5 {
+    text-align: center;
+ } 
+
+ p {
+    padding-top: 10px;
+    font-size: 20px;
+ }
+
+
+
+
+
+
+/*styling skill section*/
+
+
+
+
+.card {
+    margin: 10px;
+    height:180px;
+    width: 100px;
+    
+   
+}
+
+.html {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.css {
+    display: block;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.javascript {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.bootstrap {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+/*styling project section*/
+

@@ -17,6 +17,15 @@
       src="https://kit.fontawesome.com/7382729093.js"
       crossorigin="anonymous"
     ></script>
+    
+    <!--googlefont link--> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&display=swap"
+      rel="stylesheet"
+    />
 
     <!--css link-->
     <link rel="stylesheet" href="style.css" />
@@ -25,15 +34,15 @@
   <body>
     <!--navbar-->
 
-    <div class="bg-light">
+    <div class="navbar-section bg-light">
       <div class="scroll-button">
         <a href="#home"><i class="fas fa-arrow-up"></i></a>
       </div>
 
       <nav>
         <div class="navbar">
-          <div class="logo"><a href="#">Portfolio.</a></div>
-          <ul class="menu d-flex flex-wrap ">
+          <div class="logo"><a href="#projects">Portfolio.</a></div>
+          <ul class="menu d-flex flex-wrap">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -41,15 +50,11 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
 
-          <div class="media-icons">
+          <div class="m-3 media-icons">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
           </div>
-        </div>
-
-        <div class="menu-btn">
-          <i class="fas fa-bars"></i>
         </div>
       </nav>
     </div>
@@ -57,49 +62,120 @@
     <!--home section start-->
 
     <section class="home" id="home">
-      <div class="home-section bg-warning my-5">
-      <div class="home-content">
-        <div class="text">
-          <div class="text-one">Hello,</div>
-          <div class="text-two">I'm Wardah Sharif</div>
-          <div class="text-three">Aspiring Software Engeneer</div>
-          <div class="text-four">From Sweden</div>
+      <div class="home-section my-5">
+        <div class="home-content">
+          <div class="text">
+            <div class="text-one">Hello,</div>
+            <div class="text-two">I'm Wardah Sharif</div>
+            <div class="text-three">
+              Aspiring<span style="color: rgb(162, 95, 182)"></span>
+            </div>
+            <div class="text-four">From Sweden</div>
+          </div>
+          <div class="button">
+            <button>Hire Me</button>
+          </div>
         </div>
-        <div class="button">
-          <button>Hire Me</button>
-        </div>
-      </div>
       </div>
     </section>
 
     <!--About section start-->
 
-    <section class="about" id="about">
-      <div class=" about-section bg-success my-5">
-      <div class="content">
-        <div class="title"><span>About Me</span></div>
-        <div class="about-details">
-          <div class="left">
-            <img src="images/about.jpg" alt="" />
-          </div>
-          <div class="right">
-            <div class="topic">Designing Is My Passion</div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              temporibus at similique laudantium architecto nesciunt dignissimos
-              nostrum dolorem velit magnam!
-            </p>
-          </div>
+    <div class="about-section bg-light" id="about">
+      <h1>About me</h1>
+      <div
+        class="container about-content d-flex flex-row flex-wrap justify-content-center my-5"
+        
+      >
+        <div class="about-image my-3"></div>
+
+        <div class="about-text my-3 pt-5">
+          <h5>Who am i?</h5>
+          <p>
+            Hello, my name is Wardah Sharif and i'm an aspiring software
+            engineer with a strong foundation in coding. I have experience in
+            HTML, CSS, JavaScript and Bootstrap. I'm passionate about expanding
+            my skills and staying up-to-date with the latest technologies. I am
+            currently enrolled in college pursuing a diploma in software
+            engineering. I'm excited to apply my skills and knowledge to pursue
+            a career in software engineering.
+          </p>
+          
         </div>
       </div>
-      </div>
-    </section>
+    </div>
 
     <!-- My Skill Section Start -->
 
     <section>
-      <div class= "skills-section d-flex flex-wrap bg-primary" id="skills">
-        <div class="card my-3" style="width: 18rem">
+      <div class="bg-light" id="skills">
+        <h1>My skills</h1>
+        <div class="container skills-section my-5 pb-5">
+          <div class="d-flex flex-wrap justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/java.png"
+                class="card-img-top javascript"
+                style="width: 150px; height: 150px"
+              />
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/html.png"
+                class="card-img-top html"
+                style="width: 160px; height: 160px"
+              />
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/css.png"
+                class="card-img-top css"
+                style="width: 180px; height: 170px"
+              />
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap justify-content-center">
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/bst.png"
+                class="card-img-top bootstrap"
+                style="width: 180px; height: 180px"
+              />
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/netlify.svg"
+                class="card-img-top html"
+                style="width: 250px; height: 250px"
+              />
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <img
+                src="img/github.png"
+                class="card-img-top html"
+                style="width: 250px; height: 150px"
+              />
+
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My project Section Start -->
+
+    <section>
+      <div
+        class="project-section-section d-flex flex-wrap bg-warning justify-content-center"
+        id="projects"
+      >
+        <div class="card my-3" style="width: 16rem">
           <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -111,7 +187,7 @@
           </div>
         </div>
 
-        <div class="card my-3" style="width: 18rem">
+        <div class="card my-3" style="width: 16rem">
           <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -123,7 +199,7 @@
           </div>
         </div>
 
-        <div class="card my-3" style="width: 18rem">
+        <div class="card my-3" style="width: 16rem">
           <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -135,7 +211,7 @@
           </div>
         </div>
 
-        <div class="card my-3" style="width: 18rem">
+        <div class="card my-3" style="width: 16rem">
           <img src="..." class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -144,6 +220,41 @@
               bulk of the card's content.
             </p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card my-3" style="width: 16rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section start-->
+
+    <section class="contact" id="contact">
+      <div class="contact-section bg-success my-5">
+        <div class="content">
+          <div class="title">Contact Me</div>
+          <div class="contact-details">
+            <div class="left">
+              <img src="images/about.jpg" alt="" />
+            </div>
+            <div class="right">
+              <div class="topic">Designing Is My Passion</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                temporibus at similique laudantium architecto nesciunt
+                dignissimos nostrum dolorem velit magnam!
+              </p>
+            </div>
           </div>
         </div>
       </div>
