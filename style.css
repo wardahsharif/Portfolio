@@ -62,12 +62,17 @@ a:hover {
 ul {
     list-style: none;
     text-decoration: none;
-   
+
 
 }
 
 li {
 padding: 10px;
+
+}
+
+.logo {
+    font-size: 30px;
 }
 
 /*styling home section*/
@@ -82,8 +87,7 @@ padding: 10px;
     background-position: center;
     background-attachment: fixed;
     font-family: sans-serif;
-    
-    
+       
 }
 
 .home .home-content {
@@ -328,4 +332,89 @@ h2 {
     margin-top: 10px;
      font-family: 'Noto Serif Makasar', serif;
      font-size: 20px;
+}
+
+/*styling contact section*/
+
+.form-content {
+    width: 500px;
+    height:400px;
+    padding: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    background-color: #b796bf;
+    border-radius: 20px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+input {
+    font-size: 18px;
+    width: 400px;
+    padding: 8px;
+}
+
+.contact-content {
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    border:solid 1px #b796bf;
+    border-radius: 90px;
+}
+
+.submit-button {
+    width: 100px;
+    background-color: #e8c2ef;
+    color: white;
+    border: transparent;
+    border-radius: 90px;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.contact-heading {
+    font-size: 30px;
+}
+
+.phone-number {
+    text-align: center;
+}
+
+.email {
+    text-align: center;
+}
+
+/*styling social section*/
+
+.github-icons,
+.linkedin-icons,
+.instagram-icons {
+    width: 100px;
+    height: 100px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border:solid 1px #9975a2;
+     border-radius: 50px;
+}
+
+.fa-instagram {
+    font-size: 50px;
+   text-align: center;
+   
+}
+
+.fa-linkedin {
+    font-size: 50px;
+}
+
+.fa-github {
+    font-size: 50px;
 }
