@@ -41,7 +41,7 @@ body {
 .navbar-section {
 
     overflow: hidden;
-    background-color: white;
+    background-color: rgb(230, 203, 240);
     position: fixed;
     top:0;
     width: 100%;
@@ -52,22 +52,24 @@ body {
 
 a{
     text-decoration:none ;
-    color: black;
+    color:black;
 }
 
 a:hover {
-    color:#b796bf;
+    color:white;
 }
 
 ul {
     list-style: none;
     text-decoration: none;
-
+    
 
 }
 
 li {
 padding: 10px;
+font-weight: bold;
+
 
 }
 
@@ -82,7 +84,7 @@ padding: 10px;
     height: 800px;
     margin-top: 60px;
     margin: 0 auto;
-    background-image: url(img/pen-notebook-near-keyboard_23-2147929704.avif);
+    background-image: url(img/keyboard.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -107,7 +109,9 @@ padding: 10px;
 }
 
 .text-two {
-    font-size: 50px;
+    font-size: 55px;
+font-family: 'Grandiflora One', serif;
+    font-family: 'Noto Serif Makasar', serif;
 }
 
 .text-three {
@@ -119,7 +123,7 @@ padding: 10px;
 }
 
 span::before {
-    content: "Software Engeneer";
+    content: "software engeneer";
     animation: animate infinite 5s;
     padding-left: 10px;
 }
@@ -127,15 +131,15 @@ span::before {
 @keyframes animate {
 
     0% {
-        content: "Frontend developer";
+        content: "frontend developer";
     }
 
     50% {
-        content: "Web Designer";
+        content: "web designer";
     }
 
     75% {
-        content: "App developer";
+        content: "app developer";
     }
 }
 
@@ -163,9 +167,15 @@ button:hover {
 
 /*styling about section*/
 
+.about-section {
+ padding-bottom: 15px;
+}
+
 .about-content {
     padding: 15px;
     padding-top: 20px;
+    border: solid 3px #b796bf;
+    border-radius: 20px;
 }
 
 .about-text {
@@ -215,30 +225,31 @@ h1 {
 
 /*styling skill section*/
 
+  .skills {
+   padding-bottom: 15px;
+  }
 
-
+ .container-skills {
+    border: solid 3px #b796bf;
+    border-radius: 20px;
+ }
 
 .card {
     margin: 10px;
-    height:180px;
-    width: 100px;
-    
-   
 }
 
-.html {
+.card:hover{
+    background-color: #b796bf;
+}
+
+
+.html  {
     display: block;
     margin: 0 auto;
     padding-top: 15px;
 }
 
 .css {
-    display: block;
-    margin: 0 auto;
-    padding-top: 8px;
-}
-
-.javascript {
     display: block;
     margin: 0 auto;
     padding-top: 15px;
@@ -250,12 +261,31 @@ h1 {
     padding-top: 15px;
 }
 
+.javascript {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+
+
+
+
 
 /*styling project section*/
 
 
 .container {
     padding:20px;
+}
+
+.projects {
+    padding-bottom: 15px;
+}
+
+.container-project {
+    border: solid 3px #b796bf;
+    border-radius: 20px; 
 }
 
 .card-project {
@@ -272,12 +302,16 @@ h1 {
    width:300px;
 }
 
+.weather-app {
+    height:220px;
+}
+
 .weather-app:hover {
-  width: 250px;
+ 
   display: block;
   margin: 0 auto;
   cursor: pointer;
- filter: grayscale(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+-webkit-filter: brightness(50%);
 
     };
 
@@ -288,12 +322,11 @@ h1 {
 }
 
 .login:hover {
-    width: 250px;
-    height: 200px;
+  
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    filter: grayscale(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+-webkit-filter: brightness(50%);
    
 }
 
@@ -302,12 +335,11 @@ h1 {
 }
 
 .netflix:hover {
-    width: 250px;
-    height: 200px;
+   
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    filter: grayscale(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    -webkit-filter: brightness(50%);
  
 }
 
@@ -316,12 +348,11 @@ h1 {
 }
 
 .landing-page:hover {
-    width: 250px;
-    height: 200px;
+  
     display: block;
      margin: 0 auto;
      cursor: pointer;
-    filter: grayscale(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    -webkit-filter: brightness(50%);
 
 }
 
@@ -334,7 +365,62 @@ h2 {
      font-size: 20px;
 }
 
+
+/*styling certificate section*/
+
+.certificates {
+    padding-bottom: 15px;
+}
+.cert-1 {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.cert-1:hover {
+
+        -webkit-filter: brightness(50%);
+    
+}
+
+
+.cert-2 {
+    margin-right: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cert-2:hover {
+
+    -webkit-filter: brightness(50%);
+
+}
+
+
+
+.certificate-container {
+    border: solid 3px #b796bf;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Noto Serif Makasar', serif;
+}
+
 /*styling contact section*/
+
+.contact {
+    padding-bottom: 15px;
+}
+
+.contact-container {
+    border: solid 3px #b796bf;
+    border-radius: 20px;
+}
 
 .form-content {
     width: 500px;
@@ -391,6 +477,14 @@ input {
 }
 
 /*styling social section*/
+
+.socials {
+    padding-bottom: 15px;
+}
+.container-socials {
+  border: solid 3px #b796bf;
+  border-radius: 20px;
+}
 
 .github-icons,
 .linkedin-icons,
