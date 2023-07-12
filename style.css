@@ -68,7 +68,7 @@ ul {
 
 li {
 padding: 10px;
-font-weight: bold;
+
 
 
 }
@@ -191,7 +191,7 @@ button:hover {
 .about-image {
     width: 400px;
     height: 400px;
-    background-image: url(img/programing-aboutme.jpg);
+    background-image: url(img/me.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
