@@ -191,7 +191,7 @@ button:hover {
 .about-image {
     width: 400px;
     height: 400px;
-    background-image: url(img/me.JPG);
+    background-image: url(img/me2.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -498,6 +498,14 @@ input {
      border:solid 1px #9975a2;
      border-radius: 50px;
 }
+
+.github-icons:hover,
+.linkedin-icons:hover,
+.instagram-icons:hover {
+    background-color:#9975a2 ;
+}
+
+ 
 
 .fa-instagram {
     font-size: 50px;
