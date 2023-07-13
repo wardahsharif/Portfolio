@@ -42,6 +42,8 @@ body {
     background-color:rgb(230, 203, 240);
     overflow-x: hidden;
     width: 100%;
+    max-width:1500px;
+    margin: 0 auto;
     
 }
 
