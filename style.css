@@ -1,12 +1,5 @@
 
-@media (max-width: 600px){
-    body {
-       
-        overflow-x: hidden;
-    }
 
-       
-}
 
 * {
     margin: 0;
@@ -37,14 +30,16 @@
 }
 
 /*styling body*/
-
-body { 
-    background-color:rgb(230, 203, 240);
+  html , body {
     overflow-x: hidden;
-    width: 100%;
-    max-width:1500px;
+  }
+
+  
+ body { 
+    background-color:rgb(230, 203, 240);
+    width:0 auto;
     margin: 0 auto;
-    
+    position: relative;  
 }
 
 
