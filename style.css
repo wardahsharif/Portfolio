@@ -34,12 +34,16 @@
     overflow-x: hidden;
   }
 
-  
+
  body { 
     background-color:rgb(230, 203, 240);
     width:0 auto;
     margin: 0 auto;
     position: relative;  
+}
+
+.container {
+    width: 100%;
 }
 
 
@@ -188,9 +192,9 @@ button:hover {
 }
 
 .about-text {
-    width: 600px;
-    height: 100%;
-    margin-left: 90px;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
     box-shadow: 2px 2px 4px #9975a2;  
     border-radius: 90px;
     padding:50px;
