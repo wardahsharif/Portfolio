@@ -43,6 +43,10 @@
 
     <!--css link-->
     <link rel="stylesheet" href="style.css" />
+
+    <!--cdn link for animation css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Portfolio</title>
   </head>
   <body>
@@ -74,7 +78,7 @@
     <section class="home" id="home">
       <div class="home-section my-5">
         <div class="home-content">
-          <div class="text">
+          <div class="text" data-aos="fade-down">
             <div class="text-one">Hello,</div>
             <div class="text-two">I'm Wardah Sharif</div>
             <div class="text-three">
@@ -91,14 +95,14 @@
 
     <!--About section start-->
 
-    <div class="about-section bg-light my-5" id="about">
+    <div class="about-section bg-light my-5" id="about" data-aos="fade-down">
       <h1>About me</h1>
       <div
         class="container about-content d-flex flex-row flex-wrap justify-content-center my-5"
       >
-        <div class="about-image my-3"></div>
+        <div class="about-image my-3" data-aos="fade-left"></div>
 
-        <div class="about-text my-3 pt-5">
+        <div class="about-text my-3 pt-5" data-aos="fade-left" data-aos-delay="100" >
           <h5>Who am i?</h5>
           <p>
             Hello, my name is Wardah Sharif and i'm an aspiring software
@@ -122,12 +126,12 @@
     <!-- My Skill Section Start -->
 
     <section>
-      <div class="bg-light skills" id="skills">
+      <div class="bg-light skills" id="skills" data-aos="fade-down">
         <h1>My skills & tools</h1>
         <div
-          class="container container-skills d-flex flex-row flex-wrap justify-content-center skills-section my-5 pb-5"
+          class="container container-skills d-flex flex-row flex-wrap justify-content-center skills-section my-5 pb-5" 
         >
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/Javascript.png"
               class="card-img-top javascript"
@@ -137,7 +141,7 @@
             <h2>JavaScript</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/html (1).png"
               class="card-img-top html"
@@ -146,7 +150,7 @@
             <h2>HTML</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/css (1).png"
               class="card-img-top css"
@@ -155,7 +159,7 @@
             <h2>CSS</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/bootstrap.png"
               class="card-img-top bootstrap"
@@ -164,7 +168,7 @@
             <h2>Bootstrap</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/netlify (1).png"
               class="card-img-top html"
@@ -173,7 +177,7 @@
             <h2>Netlify</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/github.png"
               class="card-img-top html"
@@ -182,7 +186,7 @@
             <h2>Github</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem"  data-aos="fade-down">
             <img
               src="img/visualstudiocode.png"
               class="card-img-top html"
@@ -191,7 +195,7 @@
             <h2>Visual studio code</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/responsive (1).png"
               class="card-img-top html"
@@ -200,7 +204,7 @@
             <h2>Responsive</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/flexbox.png"
               class="card-img-top html"
@@ -209,7 +213,7 @@
             <h2>Flexbox</h2>
           </div>
 
-          <div class="card" style="width: 16rem">
+          <div class="card" style="width: 16rem" data-aos="fade-down">
             <img
               src="img/api.png"
               class="card-img-top html"
@@ -223,12 +227,13 @@
 
     <!-- My project Section Start -->
 
-    <div class="bg-light projects my-5" id="projects">
+    <div class="bg-light projects my-5" id="projects" data-aos="fade-down">
       <h1>My projects</h1>
 
       <div class="container container-project">
         <div class="d-flex flex-row flex-wrap">
-          <div class="card-project" style="width: 18rem">
+
+          <div class="card-project" style="width: 18rem" data-aos="fade-down">
             <a
               href="https://adorable-fudge-dfe075.netlify.app/"
               target="_blank"
@@ -240,7 +245,7 @@
             </div>
           </div>
 
-          <div class="card-project" style="width: 18rem">
+          <div class="card-project" style="width: 18rem" data-aos="fade-down">
             <a
               href="https://dainty-brioche-fb5b6f.netlify.app/?username=wardah&password=hhkk"
               target="_blank"
@@ -256,7 +261,7 @@
             </div>
           </div>
 
-          <div class="card-project" style="width: 18rem">
+          <div class="card-project" style="width: 18rem" data-aos="fade-down">
             <a href="https://gleaming-flan-2b5683.netlify.app/" target="_blank"
               ><img
                 src="img/netflixclone.png"
@@ -270,7 +275,7 @@
         </div>
 
         <div class="d-flex flex-row flex-wrap">
-          <div class="card-project" style="width: 18rem">
+          <div class="card-project" style="width: 18rem" data-aos="fade-down">
             <a href="https://quiet-youtiao-fb482e.netlify.app/" target="_blank">
               <img
                 src="img/FashionLanding.png"
@@ -282,7 +287,7 @@
             </div>
           </div>
 
-          <div class="card-project" style="width: 18rem">
+          <div class="card-project" style="width: 18rem" data-aos="fade-down">
             <a
               href="https://resilient-baklava-de52d1.netlify.app/"
               target="_blank"
@@ -296,7 +301,7 @@
             </div>
           </div>
 
-          <div class="card-project" style="width: 18rem">
+          <div class="card-project" style="width: 18rem" data-aos="fade-down">
             <a
               href="https://transcendent-frangollo-631d20.netlify.app/"
               target="_blank"
@@ -314,12 +319,12 @@
     </div>
 
     <!--certificate section-->
-    <div class="certificates bg-light my-5" id="certificates">
+    <div class="certificates bg-light my-5" id="certificates" data-aos="fade-down">
       <h1>Certificates</h1>
       <div
         class="container certificate-container d-flex flex-row flex-wrap justify-content-center"
       >
-        <div class="cert-1">
+        <div class="cert-1" data-aos="fade-left">
           <a
             href="https://www.shecodes.io/certificates/039b4ff2aa9b574ce980ab9f28a544ee"
             target="_blank"
@@ -328,7 +333,7 @@
           <h3>Introduction to coding</h3>
         </div>
 
-        <div class="cert-2">
+        <div class="cert-2" data-aos="fade-right">
           <a
             href="https://www.shecodes.io/certificates/d9aa7253795c9307580fd1f7c021e3cf"
             target="_blank"
@@ -338,7 +343,7 @@
           <h3>Web development</h3>
         </div>
 
-        <div class="cert-2">
+        <div class="cert-2" data-aos="fade-left">
           <a
             href="https://www.shecodes.io/certificates/7ca0a5fb1f06093dd82b6c6cbe44540b"
             target="_blank"
@@ -347,19 +352,18 @@
           /></a>
           <h3>Responsive web development</h3>
         </div>
-
       </div>
     </div>
 
     <!--contact section start-->
 
-    <div class="bg-light my-5 contact">
+    <div class="bg-light my-5 contact" data-aos="fade-down">
       <h1>Contact me</h1>
       <div
         class="container contact-container d-flex flex-row flex-wrap justify-content-center"
         id="contact"
       >
-        <div class="form-content">
+        <div class="form-content" data-aos="fade-right">
           <h2 class="contact-heading">Contact Form</h2>
           <form action="" method="post">
             <label>Name:</label><br />
@@ -387,25 +391,37 @@
           </form>
         </div>
 
-        <div class="contact-content bg-light">
+        <div class="contact-content bg-light" data-aos="fade-left">
           <h2 class="contact-heading">Get in touch</h2>
-          <p class="phone-number" style="background-color: #ebdcee;"><i class="fa-solid fa-phone"></i> <strong>Phone</strong>: +46 728669287</p>
-          <p class="phone-number"><i class="fa-solid fa-phone"></i> <strong>Phone</strong>: +254 794060016</p>
-          <p class="phone-number"  style="background-color: #ebdcee;" ><i class="fa-brands fa-whatsapp"></i> <strong> Whatsapp</strong>: +46 728669287</p>
-          <p class="email"><i class="fa-regular fa-envelope"></i> <strong>Email</strong>: Binthassey@gmail.com</p>
+          <p class="phone-number" style="background-color: #ebdcee">
+            <i class="fa-solid fa-phone"></i> <strong>Phone</strong>: +46
+            728669287
+          </p>
+          <p class="phone-number">
+            <i class="fa-solid fa-phone"></i> <strong>Phone</strong>: +254
+            794060016
+          </p>
+          <p class="phone-number" style="background-color: #ebdcee">
+            <i class="fa-brands fa-whatsapp"></i> <strong> Whatsapp</strong>:
+            +46 728669287
+          </p>
+          <p class="email">
+            <i class="fa-regular fa-envelope"></i> <strong>Email</strong>:
+            Binthassey@gmail.com
+          </p>
         </div>
       </div>
     </div>
 
     <!--Social media section-->
 
-    <div class="socials bg-light" id="socials">
+    <div class="socials bg-light" id="socials" data-aos="fade-down">
       <h1>Follow me</h1>
 
       <div
         class="container container-socials d-flex flex-row flex-wrap justify-content-center align-items-center mt-3"
       >
-        <div class="m-3 linkedin-icons">
+        <div class="m-3 linkedin-icons" data-aos="fade-right">
           <a
             href="https://www.linkedin.com/in/wardah-sharif-666392255/"
             target="_blank"
@@ -413,13 +429,13 @@
           ></a>
         </div>
 
-        <div class="m-3 instagram-icons">
+        <div class="m-3 instagram-icons" data-aos="fade-right">
           <a href="https://www.instagram.com/wardahcodes/" target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
 
-        <div class="m-3 github-icons">
+        <div class="m-3 github-icons" data-aos="fade-right">
           <a href="https://github.com/wardahsharif" target="_blank"
             ><i class="fab fa-github"></i
           ></a>
@@ -430,7 +446,9 @@
     <div class="coder">
       <div class="container text-center">
         <p>
-          Coded by:<a href="https://github.com/wardahsharif" target="_blank"> Wardah Sharif</a>
+          Coded by:<a href="https://github.com/wardahsharif" target="_blank">
+            Wardah Sharif</a
+          >
         </p>
       </div>
     </div>
@@ -441,5 +459,11 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+
+    <!--cdn link for animation javascript-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

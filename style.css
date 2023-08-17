@@ -136,7 +136,7 @@ font-family: 'Grandiflora One', serif;
 }
 
 span::before {
-    content: "software engeneer";
+    content: "Software engineer";
     animation: animate infinite 5s;
     padding-left: 10px;
 }
@@ -144,15 +144,15 @@ span::before {
 @keyframes animate {
 
     0% {
-        content: "frontend developer";
+        content: "Frontend developer";
     }
 
     50% {
-        content: "web designer";
+        content: "Web designer";
     }
 
     75% {
-        content: "app developer";
+        content: "App developer";
     }
 }
 
@@ -192,6 +192,8 @@ button:hover {
 }
 
 .about-text {
+   /* animation-duration: 3s;
+    animation-name: slidein;*/
     width: 700px;
     height: auto;
     margin: 0 auto;
@@ -200,11 +202,20 @@ button:hover {
     padding:50px;
 }
 
+/*@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+*/
 
 .about-image {
     width: 400px;
-    height: 400px;
-    background-image: url(img/me2.JPG);
+    height: 600px;
+    background-image: url(img/aboutMe-pic.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
